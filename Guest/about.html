@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./assets/images/favicons/favicon-16x16.png">
+    <title>About Page || Agrikon </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-xl">
+                <a class="navbar-brand" href="home.html"><img class="logo" src="./assets/images/logo-dark.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active option-header" aria-current="page" href="home.html"
+                                style="color:#49a760">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active option-header" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link option-header" href="./services.html" id="navbarScrollingDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:black">
+                                Page
+                            </a>
+                            <ul class="dropdown-menu option" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item sub-option-header" href="./services.html">Service</a></li>
+                                <li><a class="dropdown-item sub-option-header" href="./service-details.html">Service
+                                        Detail</a></li>
+                                <li><a class="dropdown-item sub-option-header" href="./contacts.html">Contacts</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link option-header" href="./project.html" id="navbarScrollingDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:black">
+                                Project
+                            </a>
+                            <ul class="dropdown-menu option" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item sub-option-header" href="./project.html">Project</a></li>
+                                <li><a class="dropdown-item sub-option-header" href="./project-details.html">Project
+                                        Detail</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link option-header" href="./news.html" id="navbarScrollingDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:black">
+                                News
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item sub-option-header" href="./news.html">Global</a></li>
+                                <li><a class="dropdown-item sub-option-header" href="./news-details.html">Agrikon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        </li>
+                    </ul>
+                    <div class="main-header__info">
+                        <a href="#" class="search-toggler main-header__search-btn"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
+                        <a class="main-header__cart-btn" href="../Admin/login.html"><i
+                                class="fa-solid fa-user-gear"></i></a>
+                        <a href="tel:0833200319" class="main-header__info-phone">
+                            <i class="fa-solid fa-phone"></i></i>
+                            <span class="main-header__info-phone-content">
+                                <span class="main-header__info-phone-text">Phone Number</span>
+                                <span class="main-header__info-phone-title">0833200319</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <img class="shape-start-slider" src="./assets/images/shapes/ripped-paper-header-1.png" alt="">
+    </header>
+
+    <button id="myBtn" title="back-to-top"><i class="fa-solid fa-chevron-up" title='back to top'
+            width='14px'></i></button>
+
+    <main class="main">
+        <section class="page-header-about">
+            <div class="page-header-about-bg" style=""></div>
+            <div class="container-xxl page-header-about-container">
+                <ul class="list-unstyled-about">
+                    <li><a href="home.html">Home</a></li>
+                    <li>/</li>
+                    <li><span>About</span></li>
+                </ul>
+                <h2>About</h2>
+            </div>
+            <img src="./assets/images/shapes/ripped-paper-slider-2.png" alt="" class="shape-end-page-header-about">
+        </section>
+        <section class="service-part-1 service-part-1-background">
+            <div class="container-xxl">
+                <div class="row service1">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 service-item-1">
+                                <div class="img-service1">
+                                    <img alt="Bootstrap Image Preview" src="./assets/images/services/service-1-1.jpg" />
+                                </div>
+                                <div class="btn-service1">
+                                    <button type="button" class="btn btn-success btn-service-item-1">
+                                        <a href="">Agriculture Leader</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-item-1">
+                                <div class="img-service1">
+                                    <img alt="Bootstrap Image Preview" src="./assets/images/services/service-1-2.jpg" />
+                                </div>
+                                <div class="btn-service1">
+                                    <button type="button" class="btn btn-success btn-service-item-1">
+                                        <a href="">Quality Standards</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 service-item-1">
+                                <div class="img-service1">
+                                    <img alt="Bootstrap Image Preview" src="./assets/images/services/service-1-3.jpg" />
+                                </div>
+                                <div class="btn-service1">
+                                    <button type="button" class="btn btn-success btn-service-item-1">
+                                        <a href="">Organic Services</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-part-2">
+            <img class="shape-end-service1" src="./assets/images/shapes/ripped-paper-gray-up.png" alt="">
+            <div class="container-xxl the-team">
+                <div class="">
+                    <div class="col-md-4 intro-blog text-content-blog text-the-team">
+                        <div class="block-title text-left" style="margin-top:20px">
+                            <div class="block-title__image"></div>
+                            <p>MEET THE TEAM</p>
+                            <h3>Expert Farmers</h3>
+                        </div>
+                        <div class="about-one__summery">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo amet quia inventore
+                                quos minus omnis, porro tempore cupiditate veritatis !</p>
+                        </div>
+                        <a href="#" class=" thm-btn">Discover More</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="team-agrikon">
+                        <div class="">
+                            <div class="team-agrikon-swiper">
+                                <div class="swiper-slide">
+                                    <div class="team-card">
+                                        <div class="team-card__image">
+                                            <img src="./assets/images/team/team-1-1.jpg" alt="Jessica Brown">
+                                            <div class="team-card__social">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                        <h3>Pham The Quyen</h3>
+                                        <p>Farmer</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-card">
+                                        <div class="team-card__image">
+                                            <img src="./assets/images/team/team-1-2.jpg" alt="Jessica Brown">
+                                            <div class="team-card__social">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                        <h3>Bui Duc Giang</h3>
+                                        <p>Farmer</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-card">
+                                        <div class="team-card__image">
+                                            <img src="./assets/images/team/team-1-3.jpg" alt="Jessica Brown">
+                                            <div class="team-card__social">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                        <h3>Hoang Minh Quan</h3>
+                                        <p>Farmer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img class="ripped-paper-end-2" src="./assets/images/shapes/ripped-paper-base-2.png" alt="">
+        </section>
+        <section class="service-part-4">
+
+            <img src="./assets/images/icons/testimonials-bg-1-1.png" class="testimonials-one__bg" alt="">
+            <div class="container-xxl">
+                <div class="row blog-post">
+                    <div class="col-md-6 blog-post-content">
+                        <img src="./assets/images/favicons/favicon-32x32.png" alt="">
+                        <h4>FROM THE BLOG POST</h4>
+                        <h3>Latest News & Articles Directly from Blog</h3>
+                    </div>
+                    <div class="col-md-6 blog-text-content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus veritatis iure esse
+                            tenetur ducimus repellendus mollitia adipisci, illo, autem voluptas reiciendis! Ipsa sint
+                            reprehenderit assumenda qui officiis repellendus veritatis sit?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="blog-card">
+                            <div class="blog-card__image">
+                                <img src="./assets/images/blog/blog-grid-1.jpg"
+                                    alt="Best Way to Do Eco and Agriculture">
+                                <a href="blog-details.html"></a>
+                            </div>
+                            <div class="blog-card__content">
+                                <div class="blog-card__date">28 Mar</div>
+                                <div class="blog-card__meta">
+                                    <a href="blog-details.html"><i class="fa-solid fa-user"></i> by Admin</a>
+                                    <a href="blog-details.html"><i class="fa-solid fa-comment"></i> 2 Comments</a>
+                                </div>
+                                <h3><a href="blog-details.html">Best Way to Do Eco and Agriculture Eco</a>
+                                </h3>
+                                <a href="blog-details.html" class="thm-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="blog-card">
+                            <div class="blog-card__image">
+                                <img src="./assets/images/blog/blog-grid-2.jpg"
+                                    alt="Leverage agile frameworks to provide">
+                                <a href="blog-details.html"></a>
+                            </div>
+                            <div class="blog-card__content">
+                                <div class="blog-card__date">28 Mar</div>
+                                <div class="blog-card__meta">
+                                    <a href="blog-details.html"><i class="fa-solid fa-user"></i> by Admin</a>
+                                    <a href="blog-details.html"><i class="fa-solid fa-comment"></i> 2 Comments</a>
+                                </div>
+                                <h3><a href="blog-details.html">Leverage agile frameworks to provide</a></h3>
+                                <a href="blog-details.html" class="thm-btn">Read More</a><!-- /.thm-btn -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="blog-card">
+                            <div class="blog-card__image">
+                                <img src="./assets/images/blog/blog-grid-3.jpg"
+                                    alt="Organically grow the holistic world view">
+                                <a href="blog-details.html"></a>
+                            </div>
+                            <div class="blog-card__content">
+                                <div class="blog-card__date">28 Mar</div>
+                                <div class="blog-card__meta">
+                                    <a href="blog-details.html"><i class="fa-solid fa-user"></i> by Admin</a>
+                                    <a href="blog-details.html"><i class="fa-solid fa-comment"></i> 2 Comments</a>
+                                </div>
+                                <h3><a href="blog-details.html">Organically grow the holistic world view</a></h3>
+                                <a href="blog-details.html" class="thm-btn">Read More</a><!-- /.thm-btn -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="service-part-3-about">
+            <img class="shape-end-service-4" src="./assets/images/shapes/ripped-paper-base-2.png" alt="">
+            <div class="container-xxl">
+                <div class="row ">
+                    <div class="col-md-5 image-content-about-3">
+                        <div class="">
+                            <img class="" src="./assets/images/resources/about-1-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7 text-content-about-3">
+                        <div class="block-title text-left">
+                            <div class="block-title__image"></div>
+                            <p>GET TO KNOW US</p>
+                            <h3>30 Years Agriculture Experience</h3>
+                        </div>
+                        <ul class="about-three__list list-unstyled">
+                            <li>
+                                <i class="fa fa-check-circle"></i>
+                                Suspe ndisse suscipit sagittis
+                            </li>
+                            <li>
+                                <i class="fa fa-check-circle"></i>
+                                If you are going to a passage
+                            </li>
+                            <li>
+                                <i class="fa fa-check-circle"></i>
+                                Entum estibulum dignissim
+                            </li>
+                            <li>
+                                <i class="fa fa-check-circle"></i>
+                                Entum estibulum dignissim
+                            </li>
+                        </ul>
+                        <div class="about-one__summery">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam atque error assumenda
+                                doloribus unde recusandae, doloremque placeat quisquam quas. Deserunt nostrum rem
+                                ducimus fugit, aliquam doloribus debitis earum! Exercitationem, aspernatur!</p>
+                        </div>
+                        <div class="about-three__signs">
+                            <img class="avata-signs" src="./assets/images/resources/about-3-1.png" alt="">
+                            <img class="img-signs" src="./assets/images/resources/sign-1-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer footer">
+        <img src="./assets/images/shapes/ripped-paper-base-2.png" class="shape-start-footer" alt="">
+        <img src="./assets/images/icons/footer-bg-icon-1.png" class="site-footer__shape-1" alt="">
+        <img src="./assets/images/icons/footer-bg-icon-2.png" class="site-footer__shape-2" alt="">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="footer-widget">
+                        <a href="index.html" class="footer-widget__Logo">
+                            <img src="./assets/images/logo-light.png" width="153" alt="">
+                        </a>
+                        <p>There are many variations of passages of lorem ipsum available, but the majority suffered.
+                        </p>
+                        <form action="#" data-url="YOUR_MAILCHIMP_URL" class="mc-form">
+                            <input type="email" name="EMAIL" placeholder="Email Address">
+                            <button type="submit"><i class="fa-solid fa-paper-plane"></i></i></button>
+                        </form>
+                        <div class="mc-form__response"></div>
+                        <div class="footer__social">
+                            <a href="#" class="fab fa-facebook-square"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-pinterest-p"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-2">
+                    <div class="footer-widget footer-widget__links-widget">
+                        <h3 class="footer-widget__title">Links</h3>
+                        <ul class="links footer-widget__contact">
+                            <li id="link">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="links-item " href="#">Our Projects</a>
+                            </li>
+                            <li id="link">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="links-item" href="#">About us</a>
+                            </li>
+                            <li id="link">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="links-item" href="#">New Campaign</a>
+                            </li>
+                            <li id="link">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="links-item" href="#">Upcoming Events</a>
+                            </li>
+                            <li id="link">
+                                <i class="fa-solid fa-chevron-right" style="position: absolute; top: 7px;"></i>
+                                <a class="links-item" href="#">Volunteers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title">News</h3>
+                        <ul class="list-unstyled footer-widget__post">
+                            <li>
+                                <img src="./assets/images/resources/footer-post-1.png" alt="">
+                                <div class="footer-widget__post-content">
+                                    <span>Nov 16, 2020</span>
+                                    <h4><a href="blog-details.html">How to grow vagetables in the forms</a></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./assets/images/resources/footer-post-2.png" alt="">
+                                <div class="footer-widget__post-content">
+                                    <span>Nov 16, 2020</span>
+                                    <h4><a href="blog-details.html">How to grow vagetables in the forms</a></h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <h3 class="footer-widget__title">Contact</h3>
+                    <ul class="list-unstyled footer-widget__contact">
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:0833200319">0833 200 319</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="/cdn-cgi/l/email-protection#442a2121202c21283404272b2934252a3d6a272b29"><span
+                                    class="__cf_email__"
+                                    data-cfemail="27494242434f424b576744484a5746495e0944484a">[email&#160;protected]</span></a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-pin"></i>
+                            <a href="#">175 - Tay Son - Dong Da - Ha Noi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <iframe src="footer.html" width="100%" height="495,676px" scrolling="no"></iframe> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
